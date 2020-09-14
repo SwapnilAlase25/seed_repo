@@ -17,7 +17,7 @@ node() {
                      lookupStrategy: 'SEED_JOB',
                      targets: 'jobs/project1.groovy'
                 }
-                
+        /*        
           stage{  
               jobDsl ignoreExisting: true, 
                      additionalClasspath: 'utils', 
@@ -30,7 +30,7 @@ node() {
                      additionalClasspath: 'utils', 
                      lookupStrategy: 'SEED_JOB',
                      targets: 'jobs/project3.groovy'
-                }
+                }*/
         }
     }
 }
