@@ -17,20 +17,20 @@ node() {
                      lookupStrategy: 'SEED_JOB',
                      targets: 'jobs/project1.groovy'
                 }
-        /*        
-          stage{  
+               
+          stage('Project2'){  
               jobDsl ignoreExisting: true, 
                      additionalClasspath: 'utils', 
                      lookupStrategy: 'SEED_JOB',
                      targets: 'jobs/project2.groovy'
                 }
             
-          stage{  
+          stage('Project3'){  
               jobDsl ignoreExisting: true, 
                      additionalClasspath: 'utils', 
                      lookupStrategy: 'SEED_JOB',
                      targets: 'jobs/project3.groovy'
-                }*/
+                }
         }
     }
 }
