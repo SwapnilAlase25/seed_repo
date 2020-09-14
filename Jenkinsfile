@@ -11,7 +11,7 @@ node() {
     timestamps {
             ansiColor('xterm') {
                   checkout scm
-          stage{  
+          stage('Project1'){  
               jobDsl ignoreExisting: true, 
                      additionalClasspath: 'utils', 
                      lookupStrategy: 'SEED_JOB',
